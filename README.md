@@ -49,3 +49,12 @@ No SRI tags for https://www.google.com/
 ```
 
 This output helps you verify the integrity of resources loaded by the URLs you are processing.
+
+## Notes
+
+Please note that testing and the URLs provided in the script are all active Bugcrowd targets at the time of the creation of this script.
+
+## Edge Cases
+
+- Dynamically loaded URLs will not work as can be seen on https://www.humblebundle.com.
+- Nonces for inline scripts are not checked.
