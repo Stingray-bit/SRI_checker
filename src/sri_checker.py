@@ -84,4 +84,6 @@ for url in urls:
             integrity_info = get_src_integrity(sri_tags)
             validate_hash(integrity_info)
         else:
+            print("----------------------------------------------------------------------------------")
             print(f"No SRI tags found for {url}, check manually")
+            print("----------------------------------------------------------------------------------")
