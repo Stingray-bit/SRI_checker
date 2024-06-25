@@ -25,7 +25,7 @@ This script fetches the HTML content of specified URLs, extracts tags with Subre
    ```
 2. Run the script:
    ```sh
-   python sri_validator.py
+   python sri_checker.py
    ```
 
 ## Script Overview
