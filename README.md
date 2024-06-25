@@ -59,3 +59,4 @@ Please note that testing and the URLs provided in the script are all active Bugc
 - Dynamically loaded URLs will not work as can be seen on https://www.humblebundle.com.
 - Nonces for inline scripts are not checked.
 - Some websites require authentication through tokens or cookies, so a more robust scraping framework is needed.
+- Script is unable to enumerate all pages/subdomains of website
